@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body{
+    font-family: 'Open Sans' ,sans-serif;
+}
+header{
+    background:linear-gradient(95deg,orange,rgb(175, 1303, 55)) ;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.logo h1{
+    margin:0;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    font-family: Bangers;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+nav a,.btns button{
+    text-decoration: none;
+    font-family: Bangers;
+    font-size: 20px;
+    font-weight: bold;
+    color:teal;
+    padding:20px;
+}
+.btns button{
+   margin-right: 10px;
+   border: none;
+   border-radius: 5px;
+   padding: 10px 20px;
+   background-color: darkblue;
+   color:white; 
+}
