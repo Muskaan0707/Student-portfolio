@@ -42,3 +42,46 @@ nav a,.btns button{
    background-color: darkblue;
    color:white; 
 }
+.hero{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background: linear-gradient(45deg,orange,rgb(223, 146, 3));
+}
+.hero img{
+    margin-right: 50px;
+}
+.hero .left{
+    font-size: 20px;
+    font-weight: bold;
+}
+.hero .left span{
+    color: darkblue;
+    font-family: Bangers;
+}
+.hero p{
+    font-size: 20px;
+}
+.second{
+    background-color: #f7f7f7;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    height:500px;
+    font-size: 60px;
+    font-family: Bangers;
+
+}
+.second span{
+    font-size: 60px;
+    font-weight: bold;
+    margin-right: 10px;
+    color:orange;
+}
+.second p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
